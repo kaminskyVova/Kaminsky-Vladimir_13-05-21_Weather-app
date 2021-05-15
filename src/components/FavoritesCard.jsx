@@ -1,4 +1,5 @@
 import React from "react";
+import "../scss/favoritePage.scss"
 
 export default function FavoritesCard({ onSelect, favorites }) {
 	return (
@@ -6,7 +7,7 @@ export default function FavoritesCard({ onSelect, favorites }) {
 			{favorites.map(({ name, current, id }) => (
 				<div
 					key={id}
-					className="border border-primary text-center p-3 m-1"
+					className="border border-primary text-center p-3 m-1 border-added"
 					onClick={() => onSelect(name)}
 				>
 					{name}

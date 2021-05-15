@@ -1,0 +1,55 @@
+.input-group-append {
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+input.MuiOutlinedInput-input {
+    margin-bottom: 10px;
+    height: 0px;
+    color:honeydew;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group-append {
+    margin-bottom: 10px;
+}
+
+.justify-content-around {
+    margin-top: 1%;
+}
+
+.to-day {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: radial-gradient(circle, rgba(17,163,218,1) 38%, rgba(164,232,11,1) 100%);
+    color: rgb(210, 81, 30);
+    font-weight: bold;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.content {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: radial-gradient(circle, rgba(17,163,218,1) 38%, rgba(164,232,11,1) 100%);
+    color: rgb(210, 81, 30);
+    font-weight: bold;
+}
+
+.border {
+    background: radial-gradient(circle, rgba(20,50,204,1) 17%, rgba(63,94,251,1) 50%, rgba(70,252,207,1) 93%);
+    color: burlywood;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}

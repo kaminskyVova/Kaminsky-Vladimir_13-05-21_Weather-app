@@ -1,0 +1,46 @@
+.card-body {
+    background: linear-gradient(45deg, #f7ff00, #db36a4);
+    background-size: 400% 400%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    animation: gradient 10s ease infinite;
+
+    flex-wrap: wrap;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.card-header {
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%, rgba(131,58,180,1) 100%);
+}
+
+.header-logo {
+    color: khaki;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(253,156,29,1) 0%, rgba(134,48,191,1) 53%, rgba(251,252,69,1) 89%);
+    background-size: 400% 400%;
+    animation: gradient 3.5s ease infinite;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-btns {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.btn-primary {
+    margin-bottom: 15px;
+}

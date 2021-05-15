@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 
+
 import { FavoritesCard, HomeCard } from "./components";
+import "../src/scss/mainPage.scss"
 
 import {
 	useWeather,
@@ -52,7 +54,11 @@ function App() {
 	return (
 		<div className="container vh-100 d-flex flex-column justify-content-center">
 			<div className="card">
-				<div className="card-header d-flex justify-content-end">
+				<div className="card-header d-flex justify-content-between">
+					<div className="header-logo">
+						Weather App
+					</div>
+					<div className="header-btns">
 					<button
 						className="btn btn-primary mr-2"
 						onClick={() => setMainMode(true)}
@@ -66,6 +72,7 @@ function App() {
 					>
 						Favorites
 					</button>
+					</div>
 				</div>
 				<div className="card-body">{body}</div>
 			</div>
