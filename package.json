@@ -2,7 +2,7 @@
   "name": "weather_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kaminskyVova.github.io/Kaminsky-Vladimir-10-09-2020",
+  "homepage": "https://kaminskyVova.github.io/Kaminsky-Vladimir_13-05-21_Weather-app",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@reduxjs/toolkit": "^1.5.1",
