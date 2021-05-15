@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Kaminsky-Vladimir_13-05-21_Weather-app/precache-manifest.6488ca53edd96a36af22e894c9f22627.js"
+  "/Kaminsky-Vladimir_13-05-21_Weather-app/precache-manifest.c0b45b0d4824cc10b4320fc56c58b1c8.js"
 );
 
 self.addEventListener('message', (event) => {
